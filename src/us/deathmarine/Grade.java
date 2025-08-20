@@ -1,4 +1,4 @@
-package us.deathmarine;
+package us.deathmarine.luyten;
 
 public class Grade {
     public static String gradeScore(int score){
