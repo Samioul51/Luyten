@@ -2,7 +2,6 @@ package us.deathmarine.luyten;
 
 public class Calculator {
     public int add(int a,int b){ 
-        System.out.println("Additon Operation in Master"); //changed here
         return (a+b); 
     }
     public int subtract(int a,int b)
@@ -14,7 +13,7 @@ public class Calculator {
     }
     public double divide(double a,double b)
     {
-        if(b == 0)
+        if (b == 0)
             throw new ArithmeticException("Division by zero");
         return (a/b);
     }
